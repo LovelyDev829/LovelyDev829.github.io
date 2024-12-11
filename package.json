@@ -2,14 +2,13 @@
   "name": "LovelyDev829-github-page",
   "version": "2.0.0",
   "private": true,
-  "homepage": "https://LovelyDev829.github.io/",
+  "homepage": "https://LovelyDev829.github.io",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
-    "export": "next export"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out"
   },
   "engines": {
     "node": ">=16.x"
@@ -18,7 +17,6 @@
     "@emailjs/browser": "^3.10.0",
     "autoprefixer": "^10.4.13",
     "expr-eval": "^2.0.2",
-    "gh-pages": "^6.2.0",
     "jquery": "^3.6.3",
     "next": "^13.1.2",
     "postcss": "^8.4.21",
@@ -29,5 +27,8 @@
     "react-ga4": "^2.1.0",
     "react-onclickoutside": "^6.12.2",
     "tailwindcss": "^3.2.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
   }
 }
