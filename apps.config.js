@@ -20,7 +20,7 @@ const apps = [
     },
     {
         id: "calc",
-        title: "Calc",
+        title: "Calculator",
         icon: './themes/Yaru/apps/calc.png',
         disabled: false,
         favourite: true,
@@ -28,8 +28,8 @@ const apps = [
         screen: displayTerminalCalc,
     },
     {
-        id: "about-vivek",
-        title: "About Vivek",
+        id: "about-josue",
+        title: "About Josue",
         icon: './themes/Yaru/system/user-home.png',
         disabled: false,
         favourite: true,
@@ -103,13 +103,13 @@ const apps = [
     },
     {
         id: "tars",
-        title: "Ask Tars",
-        icon: './themes/Yaru/apps/tars.svg',
+        title: "Josue Valdivia's Personal site",
+        icon: './themes/Yaru/apps/portfolio.png',
         disabled: false,
         favourite: false,
         desktop_shortcut: true,
         isExternalApp: true,
-        url: "https://www.vivek9patel.com/tars"
+        url: "https://josue-valdivia.netlify.app"
     },
 ]
 

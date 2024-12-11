@@ -7,7 +7,8 @@
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start",
-    "deploy": "gh-pages -d out"
+    "predeploy": "touch out/.nojekyll",
+    "deploy": "gh-pages -d out --dotfiles"
   },
   "engines": {
     "node": ">=16.x"
