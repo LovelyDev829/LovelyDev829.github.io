@@ -4,6 +4,7 @@ This is a personal portfolio website of theme Ubuntu 20.04, made using Next.js &
 If you want to edit this. Clone this project and edit the files in `/src/components`.
 
 ### Here is the [live link](https://lovelydev829.github.io/)
+![Preview Image](./preview.png)
 
 To run this on localhost
 type `npm start` and when u are done coding type `npm run build` to build your app.
