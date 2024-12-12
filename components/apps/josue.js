@@ -18,7 +18,7 @@ export class AboutJosue extends Component {
             "about": <About />,
             "education": <Education />,
             "skills": <Skills />,
-            // "projects": <Projects />,
+            "projects": <Projects />,
             "resume": <Resume />,
         }
 
@@ -219,91 +219,38 @@ function Projects() {
         {
             name: "UbuntuOS Portfolio",
             date: "Apr 2021",
-            link: "https://github.com/vivek9patel/vivek9patel.github.io",
+            link: "https://github.com/LovelyDev829/LovelyDev829.github.io",
             description: [
                 "Personal portfolio website of theme Ubuntu 20.04, made using NEXT.js & tailwind CSS",
             ],
             domains: ["javascript", "next.js", "tailwindcss"]
         },
         {
-            name: "Chrome Extension React Bolierplate",
-            date: "Dec 2021",
-            link: "https://github.com/vivek9patel/chrome-extension-react-boilerplate",
-            description: [
-                "A boilerplate code to build a chrome extension with react and webpack",
-            ],
-            domains: ["javascript", "chrome-extension"]
-        },
-        {
-            name: "CodeConnect",
+            name: "My Personal Portfolio",
             date: "Nov 2021",
-            link: "https://github.com/vivek9patel/CodeConnect-frontend",
+            link: "https://github.com/LovelyDev829/Josue.valdivia.portfolio",
             description: [
-                "A multi-language pair-programming platform with the features of video meeting and whiteboard. Built with React.js, Tailwind CSS, Chakra UI, Express & Socket.io.",
+                "My website is designed to be user-friendly and easily customizable, making it perfect for both developers and freelancers.",
             ],
-            domains: ["javascript", "tailwindcss"]
+            domains: ["javascript", "next.js", "tailwindcss"]
         },
         {
-            name: "Ad Free Spotify",
+            name: "Auto Monitor & Update Github Repo",
             date: "Jun 2021",
-            link: "https://github.com/vivek9patel/ad-free-spotify",
+            link: "https://github.com/LovelyDev829/Go-github-auto-update",
             description: [
-                "Chrome extension to automatically mute/unmute Spotify tab when Advertisement starts and ends!",
+                "Go project for monitoring updates in specific Github repo, pull, run, check and revert if there is an error.",
             ],
-            domains: ["javascript", "chrome-extension"]
+            domains: ["go", "github"]
         },
         {
-            name: "economist.com Unlocked",
+            name: "3D Truck Assemble",
             date: "Mar 2021",
-            link: "https://github.com/vivek9patel/economist.com-unlocked",
+            link: "https://github.com/LovelyDev829/3d-manipulator",
             description: [
-                "A chrome extension to read Paid Articles for Free & with no Ads, no subscription, no memberships!",
+                "3D truck assembling application using Three.js and React. It includes movement in x/y/z and rotation of elements.",
             ],
-            domains: ["javascript", "chrome-extension"]
-        },
-        {
-            name: "Flutter banking app",
-            date: "Jan 2021",
-            link: "https://github.com/vivek9patel/flutter-banking-app",
-            description: [
-                "A Flutter & Firebase project for creating transactions between different Users and displaying the history of transactions done by all.",
-            ],
-            domains: ["flutter", "firestore", "dart", "firebase auth"]
-        },
-        {
-            name: "CPU scheduling application",
-            date: "Dec 2020",
-            link: "https://github.com/vivek9patel/CPU-Scheduling-APP-React-Native",
-            description: [
-                "React Native Application to visualize the CPU Scheduling algorithms with different Processes and Animations with gannt chart.",
-            ],
-            domains: ["react-native", "javascript"]
-        },
-        {
-            name: "Meditech Healthcare WebApp",
-            date: "Nov 2020",
-            link: "https://github.com/vivek9patel/Meditech-Healthcare",
-            description: [
-                "Developed Web Application to predict and diagnose diseases from x-ray images.",
-            ],
-            domains: ["javascript", "html5", "sass", "firebase", "tensorflow"]
-        },
-        {
-            name: "Problem Recommendation System",
-            date: "Sep 2020",
-            link: "https://github.com/vivek9patel/Improve-Codeforces",
-            description: [
-                "Django web application to suggest practice problems from the areas in which the user struggles to get pass in code-forces.",
-            ],
-            domains: ["django", "python", "codeforces-api", "javascript"]
-        },
-        {
-            name: "Cleanliness Automation",
-            date: "Dec 2019",
-            link: "https://github.com/vivek9patel/CPU-Scheduling-APP-React-Native",
-            description: [
-                "Developed Web Applications to automate Garbage collection and extraction systems for SSIP hackathon",
-            ],
+            domains: ["javascript", "react.js", "three.js"]
         }
     ];
 
@@ -346,7 +293,7 @@ function Projects() {
                                 <div className="flex flex-wrap justify-between items-center">
                                     <div className='flex justify-center items-center'>
                                         <div className=" text-base md:text-lg mr-2">{project.name.toLowerCase()}</div>
-                                        <iframe src={`https://ghbtns.com/github-btn.html?user=vivek9patel&repo=${projectName}&type=star&count=true`} frameBorder="0" scrolling="0" width="150" height="20" title={project.name.toLowerCase()+"-star"}></iframe>
+                                        <iframe src={`https://ghbtns.com/github-btn.html?user=LovelyDev829&repo=${projectName}&type=star&count=true`} frameBorder="0" scrolling="0" width="150" height="20" title={project.name.toLowerCase()+"-star"}></iframe>
                                     </div>
                                     <div className="text-gray-300 font-light text-sm">{project.date}</div>
                                 </div>
